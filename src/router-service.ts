@@ -124,7 +124,7 @@ export class RouterService {
     this.routeToCallback = routeToCallback;
     this.routeBackCallback = routeBackCallback;
     this.routeBackFallbackPath = routeBackFallbackPath;
-    this.logger = logger || console.log;
+    this.logger = logger || console;
     this.vm = vm;
     this.frame = frame;
 
